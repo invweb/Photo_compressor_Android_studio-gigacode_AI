@@ -6,9 +6,9 @@
 
 ## 📱 Screenshots / Скриншоты
 
-| Screen 1 | Screen 2 | Screen 3 |
-|----------|----------|----------|
-| ![Home](screenshots/screenshot.jpeg.png) |
+| Screen 1 |
+|----------|
+| ![Home](screenshots/screenshot.jpeg) |
 
 > **Note:** Replace placeholder images with actual screenshots:
 > ```bash
