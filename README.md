@@ -8,7 +8,7 @@
 
 | Screen 1 |
 |----------|
-| ![Home](screenshots/screenshot.jpeg) |
+| ![Home](screenshots/i.webp) |
 
 > **Note:** Replace placeholder images with actual screenshots:
 > ```bash
