@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Filter</string>
+    <string name="select_photo_hint">Выберите фото</string>
+    <string name="apply">Применить</string>
+    <string name="save">Сохранить</string>
+    <string name="adjustments">Настройки</string>
+    <string name="saturation">Насыщенность</string>
+    <string name="contrast">Контраст</string>
+    <string name="brightness">Яркость</string>
+
+    <string-array name="preset_names">
+        <item>HDR</item>
+        <item>Film</item>
+        <item>Old Camera</item>
+        <item>Vivid</item>
+        <item>B&amp;W</item>
+        <item>Vintage</item>
+        <item>Cinematic</item>
+    </string-array>
+
+    <string-array name="preset_ids">
+        <item>hdr_stylization</item>
+        <item>film_effect</item>
+        <item>old_camera</item>
+        <item>vivid</item>
+        <item>bw_classic</item>
+        <item>vintage</item>
+        <item>cinematic</item>
+    </string-array>
+</resources>
