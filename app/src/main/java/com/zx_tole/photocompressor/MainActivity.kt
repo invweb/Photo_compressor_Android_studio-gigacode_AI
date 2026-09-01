@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity() {
                 if (bitmap == null) {
                     mainHandler.post {
                         showProgress(false)
-                        Toast.makeText(this, "Не удалось загрузить фото", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Failed to load photo", Toast.LENGTH_SHORT).show()
                     }
                     return@execute
                 }
@@ -181,7 +181,7 @@ class MainActivity : AppCompatActivity() {
             } catch (e: Exception) {
                 mainHandler.post {
                     showProgress(false)
-                    Toast.makeText(this, "Ошибка загрузки: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Load error: ${e.message}", Toast.LENGTH_SHORT).show()
                 }
             }
         }
@@ -270,7 +270,7 @@ class MainActivity : AppCompatActivity() {
                 mainHandler.post {
                     showProgress(false)
                     binding.btnApply.isEnabled = true
-                    Toast.makeText(this, "Ошибка фильтра: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Filter error: ${e.message}", Toast.LENGTH_SHORT).show()
                 }
             }
         }
@@ -321,7 +321,7 @@ class MainActivity : AppCompatActivity() {
 
                     mainHandler.post {
                         showProgress(false)
-                        Toast.makeText(this, "Фото сохранено", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Photo saved", Toast.LENGTH_SHORT).show()
 
                         // Notify media scanner
                         val uri = createImageURI()
@@ -330,13 +330,13 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     mainHandler.post {
                         showProgress(false)
-                        Toast.makeText(this, "Ошибка сохранения", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this, "Save failed", Toast.LENGTH_SHORT).show()
                     }
                 }
             } catch (e: Exception) {
                 mainHandler.post {
                     showProgress(false)
-                    Toast.makeText(this, "Ошибка: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Error: ${e.message}", Toast.LENGTH_SHORT).show()
                 }
             }
         }
