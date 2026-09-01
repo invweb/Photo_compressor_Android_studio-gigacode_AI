@@ -8,7 +8,7 @@
 
 | Screen 1 | Screen 2 | Screen 3 |
 |----------|----------|----------|
-| ![Home](screenshots/01_home.png) | ![Filter Applied](screenshots/02_filter.png) | ![Before/After](screenshots/03_compare.png) |
+| ![Home](screenshots/screenshot.jpeg.png) |
 
 > **Note:** Replace placeholder images with actual screenshots:
 > ```bash
