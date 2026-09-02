@@ -6,10 +6,10 @@
 
 ## 📱 Screenshots / Скриншоты
 
-| Screen 1                             |
-|--------------------------------------|
-| ![Home](screenshots/i.webp) |
-| ![Home](screenshots/Screenshot.jpg) |
+| Screen 1 |
+|----------|
+| ![Home](screenshots/screenshot.jpeg) |
+
 > **Note:** Replace placeholder images with actual screenshots:
 > ```bash
 > adb exec-out screencap -p > screenshots/01_home.png
