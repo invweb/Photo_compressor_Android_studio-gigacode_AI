@@ -8,7 +8,7 @@
 
 | Screen 1                             |
 |--------------------------------------|
-| ![Home](screenshots/Screenshot.jpeg) |
+| ![Home](https://github.com/invweb/Photo_compressor_Android_studio-gigacode_AI/blob/main/screenshots/Screenshot.jpg) |
 
 > **Note:** Replace placeholder images with actual screenshots:
 > ```bash
